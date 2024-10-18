@@ -1,0 +1,2 @@
+# VOC-major-project-python-programming
+ Personal To-Do List Application is a Python-based command-line tool that helps users manage their tasks. With features like adding, viewing, marking as completed, and deleting tasks, the application also allows categorization (Work, Personal, Urgent). Tasks are saved in a local JSON file, ensuring data is preserved between sessions. This project is ideal for beginners to practice Python programming, file handling, and task management logic.
