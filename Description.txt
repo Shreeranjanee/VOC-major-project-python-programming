@@ -1,0 +1,69 @@
+
+# Personal To-Do List Application
+
+## Overview
+The **Personal To-Do List Application** is a straightforward command-line tool built with Python, aimed at helping users keep track of their tasks. Users can add, view, mark tasks as completed, delete them, and categorize them (e.g., Work, Personal, Urgent). All tasks are saved in a local `tasks.json` file, ensuring that data is retained between sessions.
+
+## Features
+- **Add Task**: Create new tasks by providing a title, description, and category.
+- **View Tasks**: Show all tasks along with their current status (Pending/Completed).
+- **Mark Task Completed**: Update tasks to reflect their completion.
+- **Delete Task**: Eliminate tasks from the list.
+- **Persistence**: Tasks are saved in a JSON file, allowing progress to be maintained across sessions.
+
+## Technologies Used
+- Python 3.x
+- JSON (for task storage)
+
+## Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+
+Navigate to the project directory:
+bash
+
+cd todo-app
+Run the application:
+bash
+
+python todo.py
+Usage
+Once the application is running, a menu with options will appear:
+
+Add Task: Create a new task.
+View Tasks: Display all tasks along with their details.
+Mark Task Completed: Update a task to show it as completed.
+Delete Task: Remove a task from the list.
+Exit: Save tasks to tasks.json and exit the application.
+
+File Structure
+bash
+/todo_app
+├── todo.py        # Main application logic
+├── tasks.json     # File for storing tasks
+└── README.md      # Documentation
+
+Example interaction
+
+Personal To-Do List
+1. Add Task
+2. View Tasks
+3. Mark Task Completed
+4. Delete Task
+5. Exit
+Choose an option: 1
+Enter task title: Complete Python Project
+Enter task description: Finish the to-do list application
+Enter task category (Work, Personal, Urgent): Work
+Task added successfully!
+
+Personal To-Do List
+1. Add Task
+2. View Tasks
+3. Mark Task Completed
+4. Delete Task
+5. Exit
+Choose an option: 2
+1. Complete Python Project - Work [Pending]
+   Description: Finish the to-do list application
